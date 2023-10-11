@@ -410,6 +410,20 @@ h6,
     box-shadow: 0 0 10px var(--dark);
 }
 
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; } /* Green */
+.css {width: 80%; } /* Blue */
+.js {width: 65%; } /* Red */
+.php {width: 60%; } /* Dark Grey */
+
+
+
 /*** Testimonial ***/
 .testimonial-carousel .owl-item .testimonial-item,
 .testimonial-carousel .owl-item .testimonial-item * {

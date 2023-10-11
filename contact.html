@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>FitApp - Mobile App HTML Template</title>
+        <title>Tahyour's Portfolio</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta content="" name="keywords" />
         <meta content="" name="description" />
@@ -61,12 +61,12 @@
             <!-- Spinner End -->
 
             <!-- Navbar & Hero Start -->
-            <div class="container-xxl position-relative p-0" id="home">
+            <div class=" container-xxl position-relative p-0 " id="home">
                 <nav
-                    class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+                    class="contact navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
                 >
                     <a href="" class="navbar-brand p-0">
-                        <h1 class="m-0">FitApp</h1>
+                        <h1 class="m-0">Tahyour</h1>
                         <!-- <img src="img/logo.png" alt="Logo"> -->
                     </a>
                     <button
@@ -77,7 +77,7 @@
                     >
                         <span class="fa fa-bars"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="collapse navbar-collapse" id="navbarCollapse" >
                         <div class="navbar-nav mx-auto py-0">
                             <a href="index.html" class="nav-item nav-link"
                                 >Home</a
@@ -89,12 +89,11 @@
                             <a href="./portfolio.html" class="nav-item nav-link"
                                 >Portfolio</a
                             >
-                        </div>
-                        <a
-                            href="#"
-                            class="btn btn-primary-gradient rounded-pill py-2 px-4 ms-3 d-none d-lg-block active"
+                            <a href="contact.html" class="nav-item nav-link"
                             >Contact</a
                         >
+                        </div>
+                        
                     </div>
                 </nav>
             </div>
@@ -112,17 +111,10 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-9">
                             <div class="wow fadeInUp" data-wow-delay="0.3s">
-                                <p class="text-center mb-4">
-                                    The contact form is currently inactive. Get
-                                    a functional and working contact form with
-                                    Ajax & PHP in a few minutes. Just copy and
-                                    paste the files, add a little code and
-                                    you're done.
-                                    <a href="https://htmlcodex.com/contact-form"
-                                        >Download Now</a
-                                    >.
-                                </p>
-                                <form>
+                                
+                                <div class="bg-image">
+                                    <form action="https://formsubmit.co/Oyetahyour@outlook.com" method="POST">
+                                
                                     <div class="row g-3">
                                         <div class="col-md-6">
                                             <div class="form-floating">
@@ -131,7 +123,8 @@
                                                     class="form-control"
                                                     id="name"
                                                     placeholder="Your Name"
-                                                />
+                                                name="name"
+                                                    />
                                                 <label for="name"
                                                     >Your Name</label
                                                 >
@@ -144,33 +137,55 @@
                                                     class="form-control"
                                                     id="email"
                                                     placeholder="Your Email"
-                                                />
+                                                name="email"
+                                                    />
                                                 <label for="email"
                                                     >Your Email</label
                                                 >
                                             </div>
                                         </div>
-                                        <div class="col-12">
-                                            <div class="form-floating">
-                                                <input
-                                                    type="text"
-                                                    class="form-control"
-                                                    id="subject"
-                                                    placeholder="Subject"
-                                                />
-                                                <label for="subject"
-                                                    >Subject</label
-                                                >
-                                            </div>
+                                       
                                         </div>
-                                        <div class="col-12">
+                                        <div class=" mt-1 row g-3">
+                                            <div class="col-md-6">
+                                                <div class="form-floating">
+                                                    <input
+                                                        type="text"
+                                                        class="form-control"
+                                                        id="number"
+                                                        placeholder="Phone Number"
+                                                    name="number"
+                                                        />
+                                                    <label for="Phone Number"
+                                                        >Phone Number</label
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-floating">
+                                                    <input
+                                                        type="Address"
+                                                        class="form-control"
+                                                        id="Address"
+                                                        placeholder="Address"
+                                                    name="Address"
+                                                        />
+                                                    <label for="Address"
+                                                        >Address</label
+                                                    >
+                                                </div>
+                                            </div>
+                                           
+                                            </div>
+                                        <div class="mt-4 col-12">
                                             <div class="form-floating">
                                                 <textarea
                                                     class="form-control"
                                                     placeholder="Leave a message here"
                                                     id="message"
                                                     style="height: 150px"
-                                                ></textarea>
+                                               name="message"
+                                                    ></textarea>
                                                 <label for="message"
                                                     >Message</label
                                                 >
@@ -178,7 +193,8 @@
                                         </div>
                                         <div class="col-12 text-center">
                                             <button
-                                                class="btn btn-primary-gradient rounded-pill py-3 px-5"
+
+                                                class="btn btn-outline-light text-light rounded-pill b-0 py-3 px-5 bg-warning-gradient mt-3"
                                                 type="submit"
                                             >
                                                 Send Message
@@ -191,92 +207,95 @@
                     </div>
                 </div>
             </div>
+            </div>
             <!-- Contact End -->
             <!-- Footer Start -->
-            <div
-                class="container-fluid bg-primary text-light footer wow fadeIn"
-                data-wow-delay="0.1s"
-            >
-                <div class="container py-5 px-lg-5">
-                    <div class="row g-5">
-                        <div class="col-md-12 col-lg-12">
-                            <h4 class="text-white mb-4">Address</h4>
-                            <div class="d-flex gap-4">
-                                <p>
-                                    <i class="fa fa-map-marker-alt me-3"></i>
-                                    Lagos, Nigeria
-                                </p>
-                                <p>
-                                    <i class="fa fa-phone-alt me-3"></i>+234
-                                    8169129560
-                                </p>
-                                <p>
-                                    <i class="fa fa-envelope me-3"></i
-                                    >edoziemagdalene@gmail.com
-                                </p>
-                            </div>
+            <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"
+            ><i class="bi bi-arrow-up text-white"></i
+        ></a>
+    </div>
 
-                            <div class="d-flex pt-2 gap-3">
-                                <a
-                                    class="btn btn-outline-light btn-social"
-                                    href=""
-                                    ><i class="fab fa-twitter"></i
-                                ></a>
-                                <a
-                                    class="btn btn-outline-light btn-social"
-                                    href=""
-                                    ><i class="fab fa-facebook-f"></i
-                                ></a>
-                                <a
-                                    class="btn btn-outline-light btn-social"
-                                    href=""
-                                    ><i class="fab fa-instagram"></i
-                                ></a>
-                                <a
-                                    class="btn btn-outline-light btn-social"
-                                    href=""
-                                    ><i class="fab fa-linkedin-in"></i
-                                ></a>
-                            </div>
-                        </div>
-                    </div>
+
+    <div
+    class="container-fluid bg-info text-light footer wow fadeIn"
+    data-wow-delay="0.1s"
+>
+    <div class="container py-5 px-lg-5">
+        <div class="row g-5">
+            <div class="col-md-12 col-lg-12">
+                <h4 class="text-white mb-4">Address</h4>
+                <div class="d-flex gap-4">
+                    <p>
+                        <i class="fa fa-map-marker-alt me-3"></i>Ibadan, Nigeria
+                      
+                    </p>
+                    <p>
+                        <i class="fa fa-phone-alt me-3"></i>+2348169005736
+                      
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope me-3"></i
+                        >Oyetahyour@outlook.com.com
+                    </p>
                 </div>
-                <div class="container px-lg-5">
-                    <div class="copyright">
-                        <div class="row">
-                            <div
-                                class="col-md-6 text-center text-md-start mb-3 mb-md-0"
-                            >
-                                &copy;
-                                <a class="border-bottom" href="#"
-                                    >Hertechtrail cohort 7 project.</a
-                                >
 
-                                <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                                Designed By
-                                <a
-                                    class="border-bottom"
-                                    href="https://htmlcodex.com"
-                                    >Maggy.</a
-                                >
-                            </div>
-                            <div class="col-md-6 text-center text-md-end">
-                                <div class="footer-menu">
-                                    <a href="">Home</a>
-                                </div>
-                            </div>
-                        </div>
+                <div class="d-flex pt-2 gap-3">
+                    <a
+                        class="btn btn-outline-light btn-social"
+                        href="http://twitter.com/Oyetahyour"
+                        ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a
+                        class="btn btn-outline-light btn-social"
+                        href="https://www.facebook.com/yekeen.tawakalit.3?mibextid=LQQJ4d"
+                        ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a
+                        class="btn btn-outline-light btn-social"
+                        href="https://www.instagram.com/i_am_tahyour"
+                        ><i class="fab fa-instagram"></i
+                    ></a>
+                    <a
+                        class="btn btn-outline-light btn-social"
+                        href="www.linkedin.com/in/oyetayo-yekeen-5500b6203"
+                        ><i class="fab fa-linkedin-in"></i
+                    ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container px-lg-5">
+        <div class="copyright">
+            <div class="row">
+                <div
+                    class="col-md-6 text-center text-md-start mb-3 mb-md-0"
+                >
+                    &copy;
+                    <div class="button groups btn ">  <a class=" fst-italic" href="#"
+                        >Hertechtrail cohort 7 project.</a
+                    >
+
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                  <a
+                    class="  fst-italic"
+                    href="https://htmlcodex.com"
+                    >Designed by</a
+                >
+                    <a
+                        class="  fst-italic"
+                        href="https://htmlcodex.com"
+                        >Tahyour</a
+                    ></div>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="">Home</a>
                     </div>
                 </div>
             </div>
-            <!-- Footer End -->
-
-            <!-- Back to Top -->
-            <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"
-                ><i class="bi bi-arrow-up text-white"></i
-            ></a>
         </div>
-
+    </div>
+</div>
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
