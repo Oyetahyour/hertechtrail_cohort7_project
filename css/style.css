@@ -6,7 +6,19 @@
     --dark: #262b47;
 } 
 
+
+body{
+    background-color: white;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll; 
+
+}
 /*** Spinner ***/
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -174,7 +186,7 @@ h6,
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color: var(--light) !important;
+    color: var(--dark) !important;
     outline: none;
     transition: 0.5s;
 }
@@ -215,9 +227,7 @@ h6,
     max-height: 45px;
 }
 
-.container-xxl{
-    margin-top: 10px;
-}
+
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
         position: relative;
