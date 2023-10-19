@@ -301,7 +301,7 @@ h6,
 
 /*** Hero Header ***/
 .hero-header {
-    margin-bottom: 6rem;
+   
     padding: 16rem 0 0 0;
     background: url(../img/bg-circle.png), url(../img/bg-triangle.png),
         url(../img/bg-bottom.png),
@@ -315,9 +315,11 @@ h6,
         padding: 4rem 0 4rem 0;
     }
 
-.note{
-    padding-top: 5rem;
-}
+
+.container-xxl .hi{background-color: (var--dark);
+margin-top: 30px;
+padding-top: 30px;
+width: 100%;}
 /*** Feature ***/
 .feature-item {
     transition: 0.5s;
@@ -369,6 +371,7 @@ h6,
 }
 
 @media (max-width: 768px) {
+    
   .container-xxl {
     height: auto;
 
@@ -381,15 +384,15 @@ h6,
   .container-xxl  .mb-4 {
     font-size: 1rem;
     text-align: center;
-    margin: 45px;
+    
   }
   .container-xxl  .pb-3 {
     font-size: 1rem;
     text-align: center;
-    margin: 45px;
+   
   }
   .container-xxl  .note {
-    font-size: 0.5rem;
+    font-size: 3rem;
     text-align: center;
     margin: 45px;
 padding-left: 2px; 
@@ -398,9 +401,7 @@ padding-left: 2px;
   .container-xxl .mb-4 .btn {
     justify-content: center;
   }
-  .container-xxl .animated.slideInRight{
-margin-top: 10px;
-  }
+  
   .container-xxl .screenshot-carousel {
 
     border-radius: 25% 25% 0 0;
@@ -434,9 +435,9 @@ margin-top: 10px;
   }
 
   .container-xxl  .details{
-    font-size: 0.5rem;
+    font-size: 1rem;
     text-align: center;
-    margin: 45px;
+    margin: 20px;
   }
   
   .about_section .detail-box {
@@ -512,11 +513,19 @@ margin-top: 10px;
     font-size: 2.5rem;
   }
 }
-
+.smart{
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    background-color: #FFFF00;
+    box-sizing: border-box;
+}
 .column {
     float: left;
     width: 20%;
-    padding: 15px;
+    padding-top:50px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   
   /* Clear floats after image containers */
@@ -531,7 +540,9 @@ margin-top: 10px;
   
   .column {
     flex: 20%;
-    padding: 15px;
+   padding-top: 50px;
+   padding-right: 15px;
+   padding-left: 15px;
   }
   
 
@@ -637,6 +648,7 @@ margin-top: 10px;
 
 .testimonial-carousel .owl-nav {
     margin-top: 30px;
+   padding-bottom: 20px;
     display: flex;
     justify-content: center;
 }
