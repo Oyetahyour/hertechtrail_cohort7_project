@@ -11,9 +11,9 @@ body{
     background-color: white;
     -ms-overflow-style: none;
     scrollbar-width: none;
-    overflow-y: scroll; 
-
+    
 }
+
 /*** Spinner ***/
 body::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
@@ -226,7 +226,9 @@ h6,
 .sticky-top.navbar-light .navbar-brand img {
     max-height: 45px;
 }
-
+.contact{
+    height: 80px;
+}
 
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
@@ -249,7 +251,7 @@ h6,
     .navbar-light .navbar-nav .nav-link::before {
         display: none;
     }
-
+    
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active {
         color: lightblue !important;
